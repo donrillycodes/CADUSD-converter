@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        <h1>CAD-USD Currency Converter</h1>
+        <input type="number" placeholder="Enter Amount" id="amount"> <br>
+
+        <div>
+            <select name="" id="currency-From">
+                <option value="CAD">CAD</option>
+                <option value="USD">USD</option>
+            </select>
+            <select name="" id="currency-To">
+                <option value="USD">USD</option>
+                <option value="CAD">CAD</option>
+            </select>
+
+            <button onclick="convert()">Convert</button>
+
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="currency.js"></script>
+</body>
+
+</html>
